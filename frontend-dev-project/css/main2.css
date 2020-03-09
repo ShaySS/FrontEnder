@@ -75,35 +75,36 @@ h1,
     transform: skewY(2deg);
 }
 
-.blue-container ul li{
+.blue-container ul li {
     margin-bottom: 3em;
 }
-.blue-container ul li p{
+
+.blue-container ul li p {
     padding-bottom: 0.5em
 }
 
-.blue-container img{
-    width:14%;
+.blue-container img {
+    width: 14%;
     max-width: 5em
 }
 
-.blue-container ul li:nth-child(3) img{
-    width:9%;
+.blue-container ul li:nth-child(3) img {
+    width: 9%;
     max-width: 3em;
 }
 
-.gray-container{
+.gray-container {
     background: rgb(236, 231, 231);
     padding: 4em 0 2em;
     margin-top: -55px;
 }
 
 /*first child is the same as nth child(1)!*/
-.gray-container ul li:first-child{
+.gray-container ul li:first-child {
     margin-bottom: 2em;
 }
 
-figure{
+figure {
     margin: 0;
     padding: 0;
 }
@@ -113,7 +114,7 @@ figcaption {
     color: #00c2ff;
 }
 
-h2{
+h2 {
     margin-top: 7%;
 }
 
@@ -130,4 +131,71 @@ h2{
     margin: 3% auto 7%;
     position: relative;
     z-index: 4;
+}
+
+.footer-container {
+    width: 100%;
+    background: #3D444A;
+    color: white;
+    padding: 3em 0;
+    border-top-right-radius: 40px;
+    transform: skewY(2deg);
+}
+
+.footer-container .container {
+    transform: skewY(-2deg);
+}
+
+.footer-links {
+    margin: 0, auto;
+}
+
+.footer-links ul li {
+    display: inline-block;
+}
+
+
+.footer-container ul li a {
+    color: #9d9d9d;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+nav ul {
+    position: fixed;
+    width: 30%;
+    top: 0;
+    right: 0;
+    background-color: rgb(36, 41, 44);
+    text-align: center;
+    height: 35%;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    text-align: left;
+    z-index: 3;
+}
+
+.exit-btn {
+   margin-top: -0.8em;
+   margin-left: 0.8em;
+   margin-bottom: 0.8em;
+   margin-right: 1em;
+   text-align: right;
+}
+
+.exit-btn img{
+    width: 15px; 
+    cursor: pointer;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    background: rgb(56, 68, 73);
+}
+
+nav ul li a:hover {
+    background: rgb(92, 103, 110);
 }
