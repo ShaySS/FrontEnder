@@ -45,17 +45,17 @@
                 <li><img src="./images/icon-1.svg" alt="calendar icon">
                     <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore
-                        et dolore magna aliqua. Ipsum Dolor Sit Amet</p>
+                        et dolore magna aliqua. </p>
                 </li>
                 <li><img src="./images/icon-2.svg" alt="wallet icon">
                     <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore
-                        et dolore magna aliqua. Ipsum Dolor Sit Amet</p>
+                        et dolore magna aliqua. </p>
                 </li>
                 <li><img src="./images/icon-3.svg" alt="phone icon">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore
-                        et dolore magna aliqua. Ipsum Dolor Sit Amet</p>
+                        et dolore magna aliqua. </p>
                 </li>
 
             </ul>
@@ -69,7 +69,7 @@
                     <figure>
                         <img src="./images/user1.png" alt="user testimonial 1">
                         <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. ipsum Dolor </blockquote>
+                            incididunt ut labore et dolore magna aliqua. </blockquote>
                         <figcaption>- Jane Doe</figcaption>
                     </figure>
                 </li>
@@ -78,7 +78,7 @@
                     <figure>
                         <img src="./images/user2.png" alt="user testimonial 1">
                         <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. ipsum Dolor </blockquote>
+                            incididunt ut labore et dolore magna aliqua. </blockquote>
                         <figcaption>- John Doe</figcaption>
                     </figure>
                 </li>
@@ -108,6 +108,23 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        let menu = document.getElementById('menu');
+        let nav = document.getElementById('nav');
+        let exit = document.getElementById('exit');
+
+        menu.addEventListener('click', e => {
+            nav.classList.toggle('hide-mobile');
+            e.preventDefault;
+        })
+
+        exit.addEventListener('click', e => {
+            nav.classList.add('hide-mobile');
+            e.preventDefault;
+        })
+    </script>
+
 </body>
 
 </html>
